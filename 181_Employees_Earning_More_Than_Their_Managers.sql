@@ -9,7 +9,7 @@
 #| 4  | Max   | 90000  | NULL      |
 #+----+-------+--------+-----------+
 # Given the Employee table, write a SQL query that finds out employees who 
-earn more than their managers.
+# earn more than their managers.
 
 SELECT E1.Name AS Employee
 FROM Employee E1, Employee E2
